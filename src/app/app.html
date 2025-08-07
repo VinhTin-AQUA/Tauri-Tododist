@@ -1,11 +1,12 @@
-<div class="light">
+<div class="light flex">
     <!-- side bar -->
     <div>
         <app-sidebar></app-sidebar>
     </div>
 
     <!-- body -->
-    <div>
+    <div class="flex-1 p-2">
+        <app-header></app-header>
         <router-outlet></router-outlet>
     </div>
 </div>
